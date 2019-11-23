@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"s3storagetest017f82a9": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"s3storagetest123haydn": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "s3storagetest-dev-20191123172349-authRole",
+            "UnauthRoleArn": "arn:aws:iam::507147213615:role/s3storagetest-dev-20191123172349-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::507147213615:role/s3storagetest-dev-20191123172349-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "s3storagetest-dev-20191123172349-deployment",
+            "UnauthRoleName": "s3storagetest-dev-20191123172349-unauthRole",
+            "StackName": "s3storagetest-dev-20191123172349",
+            "StackId": "arn:aws:cloudformation:eu-west-1:507147213615:stack/s3storagetest-dev-20191123172349/01da6220-0e16-11ea-b2ac-069dc79e2b34"
+        },
+        "categories": {
+            "auth": {
+                "s3storagetest017f82a9": {}
+            }
+        }
+    }
+}
