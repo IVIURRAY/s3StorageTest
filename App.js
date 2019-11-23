@@ -19,9 +19,6 @@ export default class App extends React.Component {
 
   s3test = async () => {
     console.log('starting s3 test');
-    await Auth.currentAuthenticatedUser()
-      .then(response => console.log(response))
-      .catch(err => console.log('ERROR::', err));
     const homer = await Storage.get('homer.png')
       .then(result => {
         console.log('SUCCCESS::', result);
